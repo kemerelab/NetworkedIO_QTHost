@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>images/stop_button.svg</file>
+        <file>images/reset_button.svg</file>
+        <file>images/play_button.svg</file>
+        <file>images/pause_button.svg</file>
+        <file>images/rising-edge.svg</file>
+        <file>images/falling-edge.svg</file>
+    </qresource>
+    <qresource prefix="/maze">
+        <file>images/track-tee.svg</file>
+        <file>images/track-left-corner.svg</file>
+        <file>images/track-right-corner.svg</file>
+        <file>images/track-end-vertical.svg</file>
+    </qresource>
+</RCC>
