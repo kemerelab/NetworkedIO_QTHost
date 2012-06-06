@@ -67,7 +67,7 @@ void BehaviorControl::resetControl(void) {
 
 void BehaviorControl::triggerOutput(int chan) {
   qDebug() << "BControl triggering output" << chan;
-  outputNetworkData->sendTriggerDatagram(chan,0);
+  outputNetworkData->sendTriggerDatagram(OutputMap[chan],0);
 }
 
 void BehaviorControl::newDataReceived(char value, QTime t) {
